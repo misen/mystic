@@ -3,6 +3,7 @@ package com.ms.basics.thread;
 import java.util.concurrent.CountDownLatch;
 
 /**
+ * 多个线程同时启动
  * @author wangmingsen
  * @create 2018-09-13-16:51
  **/
