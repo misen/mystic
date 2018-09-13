@@ -3,6 +3,7 @@ package com.ms.basics.thread;
 import java.util.concurrent.*;
 
 /**
+ * 线程池的练习
  * @author wangmingsen
  * @create 2018-09-10-15:18
  **/
