@@ -26,8 +26,7 @@ public class MyCachedThreadPool {
 
             try {
                 Thread.sleep(1000L);
-                Thread thread = new Thread();
-                thread.join();
+
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
