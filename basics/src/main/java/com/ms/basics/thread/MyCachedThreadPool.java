@@ -37,7 +37,7 @@ public class MyCachedThreadPool {
 
 
 //执行前用于保持任务的队列5，即任务缓存队列
-        final  ArrayBlockingQueue<Runnable> workQueue =new ArrayBlockingQueue<>(5);
+        final  ArrayBlockingQueue<Runnable> workQueue =new ArrayBlockingQueue<>(2);
 
 
         //构建一个线程池，正常线程数量为5，最大线程数据为10，等待时间200
