@@ -17,7 +17,6 @@ public class CountDownLatchSyncStart {
 
         CountDownLatch latch = new CountDownLatch(1);
 
-
         Thread t1 = new Thread(test.new MapOper(latch));
         Thread t2 = new Thread(test.new MapOper(latch));
         t1.setName("Thread1");

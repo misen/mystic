@@ -41,12 +41,12 @@ public class ReenterLockInt implements Runnable {
             e.printStackTrace();
         }
         finally {
-            if(lock1.isHeldByCurrentThread()){
+      /*      if(lock1.isHeldByCurrentThread()){
                 lock1.unlock();
             }
             if (lock2.isHeldByCurrentThread()){
                 lock2.unlock();
-            }
+            }*/
 
             System.out.println(Thread.currentThread().getId()+"线程退出");
         }
